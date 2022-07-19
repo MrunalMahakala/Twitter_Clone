@@ -1,0 +1,66 @@
+.sidebar{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    background-color: #282c34;
+    height: 100vh;
+   
+  
+  
+}
+.logo{
+    font-size: 30px;
+    color: #50b7f5;
+    margin: 10px;
+}
+.tweet{
+    margin-top: 10px;
+    display: flex;
+    height: 50px;
+   
+    width: 70%;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #50b7f5;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+   
+}
+.tweet > h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #e8f5fe;
+    justify-content: center;
+    align-items: center;
+}
+.pen-icon{
+    display: none;
+}
+@media all and (max-width:1000px) {
+    .sidebar{
+    
+    }
+    .logo{
+        align-items: center;
+        padding-left: 40%;
+    }
+    .tweet{
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        height: 60px;
+        width: 60px;
+        margin-left: 40%;
+        border-radius: 50%;
+        
+    }
+    .tweet >h3{
+        display: none;
+    }
+    .pen-icon{
+        display: inline;
+        font-size: 30px;
+        color: #e8f5fe;
+    }
+}

@@ -1,0 +1,103 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+   
+    color: #e8f5fe;
+    width: 100%;
+    padding :1em 0;
+    z-index: 100;
+    border-bottom: 1px solid #686e729d;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34f1;
+}
+
+.star{
+padding-right: 20px;
+padding-left: 20px;
+align-content: center;
+font-size: 30px;
+justify-content: center;
+z-index: 101;
+}
+.home{
+z-index: 101;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+.feed{
+    min-width: fit-content;
+    /* overflow-y:scroll; */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.feed::-webkit-scrollbar{
+    display:none;
+}
+.Avatar{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.tweet-box{
+    
+  padding-bottom: 10px;
+    border-bottom: 1.5px solid #686e729d;
+    
+}
+.tweet-box > form{
+
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.tweet-box > .tweet-add{
+    display: flex;
+    font-size: 30px;
+    color: #50b7f5;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+    justify-content: space-between;
+}
+.tweet-add > div{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.tweet-input{
+padding: 20px;
+display: flex;
+}
+.tweet-input >textarea{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border-style: none;
+    background-color: #282c34;
+    color: #e8f5fe;
+   
+    scroll-behavior: none;
+    resize: none;
+}
+textarea::-webkit-scrollbar{
+    width: 0;
+}
+.input-box:focus{
+    outline: 0;
+    border: none;
+}

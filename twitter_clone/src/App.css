@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+}
+.Sidebar{
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  border-right: 1px solid #686e729d;
+  flex: 0.25;
+  padding: 0px 10px 0px 10px;
+  min-width: 250px;
+}
+.Feed{
+  flex:0.45;
+  border-right: 1px solid #686e729d;
+}
+.Widgets{
+  flex:0.30;
+}
